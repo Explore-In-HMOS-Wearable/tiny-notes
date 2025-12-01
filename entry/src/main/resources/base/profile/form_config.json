@@ -1,0 +1,25 @@
+{
+  "forms": [
+    {
+      "name": "TinyNotes",
+      "displayName": "$string:TinyNotes_display_name",
+      "description": "$string:TinyNotes_desc",
+      "src": "./ets/tinynotes/pages/TinyNotesCard.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+      "isDynamic": false,
+      "isDefault": true,
+      "updateEnabled": false,
+      "scheduledUpdateTime": "10:30",
+      "updateDuration": 1,
+      "defaultDimension": "2*2",
+      "supportDimensions": [
+        "2*2"
+      ]
+    }
+  ]
+}

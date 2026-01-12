@@ -31,7 +31,7 @@ Tiny Notes is a quick and simple way to save short reminders, keep-in-mind messa
     - @kit.BasicServicesKit	Provides BusinessError for handling exceptions and service errors.
     - @kit.PerformanceAnalysisKit	Utilized for logging and debugging via hilog.
 
-# Project Directory
+# Directory Structure
 
 ```
 |--- entryability
@@ -58,7 +58,7 @@ Tiny Notes is a quick and simple way to save short reminders, keep-in-mind messa
 - Huawei Watch 5
 - Devices running HarmonyOS 5.1.0 (API 18) and above
 
-# Licence
+# License
 
 Tiny Notes is distributed under the terms of the MIT License
 See the [LICENSE](./LICENSE) for more information.

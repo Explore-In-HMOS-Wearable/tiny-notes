@@ -38,7 +38,7 @@ export class PreferencesUtil {
 
   public async putValue(context: Context, key: string, value: preferences.ValueType) {
     Logger.info(`putValue key: ${key},value: ${value}`);
-    let pre = await this.getPreferences(context);
+    const pre = await this.getPreferences(context);
     pre.put(key, value).then(() => {
       this.preferencesFlush(pre);
       Logger.info(TAG, `putValue successfully.`);
@@ -49,7 +49,7 @@ export class PreferencesUtil {
 
   public async getValue(context: Context, key: string,
     defaultValue: preferences.ValueType): Promise<preferences.ValueType> {
-    let pre = await this.getPreferences(context);
+    const pre = await this.getPreferences(context);
     return new Promise((resolve, reject) => {
       pre.get(key, defaultValue).then((data: preferences.ValueType) => {
         Logger.info(TAG, `getValue successfully,value: ${data.toString()}`);

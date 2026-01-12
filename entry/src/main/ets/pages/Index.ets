@@ -1,4 +1,4 @@
-import { ArcList, ArcListItem, ArcSwiper, prompt } from '@kit.ArkUI';
+import { ArcList, ArcListItem, ArcSwiper, promptAction } from '@kit.ArkUI';
 import { PreferencesUtil } from '../utils/PreferencesUtils';
 import { formBindingData } from '@kit.FormKit';
 import { formProvider } from '@kit.FormKit';
@@ -45,6 +45,7 @@ struct TinyNotesPage {
             .fontSize(12)
             .height(30)
             .backgroundColor(Color.Green)
+            .fontColor(Color.White)
         }
         .padding(12)
       }.width('100%')
@@ -96,6 +97,7 @@ struct TinyNotesPage {
                 .fontSize(10)
                 .height(25)
                 .backgroundColor(Color.Pink)
+                .fontColor(Color.Black)
             }
             .padding({
               left: 6,
@@ -108,7 +110,7 @@ struct TinyNotesPage {
             .borderColor(this.selectedNote === index ? Color.Green : Color.Gray)
             .justifyContent(FlexAlign.SpaceBetween)
           }
-        })
+        }, (item: string) => item)
       }
 
     }
@@ -123,7 +125,7 @@ struct TinyNotesPage {
   }
 
   showNote(text: string) {
-    prompt.showToast({
+    promptAction.openToast({
       message: text,
       duration: 2000
     });

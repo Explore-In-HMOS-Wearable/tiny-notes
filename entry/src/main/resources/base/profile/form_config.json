@@ -20,6 +20,29 @@
       "supportDimensions": [
         "2*2"
       ]
+    },
+    {
+      "name": "TinyNotesLarge",
+      "displayName": "$string:TinyNotesLarge_display_name",
+      "description": "$string:TinyNotesLarge_desc",
+      "src": "./ets/tinynotes/pages/TinyNotesLargeCard.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+      "isDynamic": false,
+      "isDefault": false,
+      "updateEnabled": false,
+      "scheduledUpdateTime": "10:30",
+      "updateDuration": 1,
+      "defaultDimension": "3*3",
+      "supportDimensions": [
+        "2*3",
+        "3*3",
+        "4*4"
+      ]
     }
   ]
 }

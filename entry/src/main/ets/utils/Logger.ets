@@ -2,7 +2,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 
 export class Logger {
   private static domain: number = 0xFF00;
-  private static prefix: string = 'MusicCard';
+  private static prefix: string = 'TinyNotes';
   private static format: string = '%{public}s, %{public}s';
 
   static debug(...args: string[]): void {

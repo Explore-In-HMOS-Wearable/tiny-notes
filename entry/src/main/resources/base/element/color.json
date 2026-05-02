@@ -2,22 +2,83 @@
   "color": [
     {
       "name": "start_window_background",
-      "value": "#FFFFFF"
+      "value": "#FAFAFA"
     },
     {
       "name": "information_title_font",
-      "value": "#E6000000"
+      "value": "#111111"
     },
     {
       "name": "title_font",
-      "value": "#E5FFFFFF"
+      "value": "#FAFAFA"
     },
     {
       "name": "item_text_font",
-      "value": "#99000000"
+      "value": "#111111"
     },
     {
       "name": "image_info_background",
+      "value": "#FAFAFA"
+    },
+
+    {
+      "name": "surface",
+      "value": "#FAFAFA"
+    },
+    {
+      "name": "surface_muted",
+      "value": "#E8EAED"
+    },
+    {
+      "name": "surface_pressed",
+      "value": "#D2D5DA"
+    },
+    {
+      "name": "field_surface",
+      "value": "#F2F4F7"
+    },
+    {
+      "name": "field_border",
+      "value": "#BFC5D1"
+    },
+
+    {
+      "name": "on_surface",
+      "value": "#111111"
+    },
+    {
+      "name": "on_surface_muted",
+      "value": "#5A5F66"
+    },
+
+    {
+      "name": "brand_primary",
+      "value": "#E91E63"
+    },
+    {
+      "name": "brand_accent",
+      "value": "#00897B"
+    },
+    {
+      "name": "on_primary",
+      "value": "#FFFFFF"
+    },
+
+    {
+      "name": "border_default",
+      "value": "#CCCCCC"
+    },
+    {
+      "name": "border_selected",
+      "value": "#00897B"
+    },
+
+    {
+      "name": "danger",
+      "value": "#C62828"
+    },
+    {
+      "name": "on_danger",
       "value": "#FFFFFF"
     }
   ]

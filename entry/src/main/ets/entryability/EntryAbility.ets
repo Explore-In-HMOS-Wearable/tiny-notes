@@ -6,8 +6,13 @@ const DOMAIN = 0x0000;
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
-    this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
-    hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
+    try {
+      this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_DARK);
+    } catch (e) {
+      const err = e as Error;
+      hilog.error(DOMAIN, 'TinyNotes', 'setColorMode err: %{public}s', err.message);
+    }
+    hilog.info(DOMAIN, 'TinyNotes', '%{public}s', 'Ability onCreate');
   }
 
   onDestroy(): void {

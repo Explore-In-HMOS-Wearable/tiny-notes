@@ -2,11 +2,11 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "Tiny Notes module"
+      "value": "Tiny Notes modulu"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "Tiny Notes main ability"
+      "value": "Tiny Notes ana uygulamasi"
     },
     {
       "name": "EntryAbility_label",
@@ -22,7 +22,7 @@
     },
     {
       "name": "TinyNotes_desc",
-      "value": "Quickly pin a note to your watch face."
+      "value": "Notunu hizlica saat arayuzune sabitle."
     },
     {
       "name": "TinyNotes_display_name",
@@ -30,11 +30,11 @@
     },
     {
       "name": "TinyNotesLarge_desc",
-      "value": "Open Tiny Notes or view your pinned note on a large watch widget."
+      "value": "Tiny Notes'u ac veya sabit notunu buyuk saat widget'inda gor."
     },
     {
       "name": "TinyNotesLarge_display_name",
-      "value": "Tiny Notes Large"
+      "value": "Tiny Notes Buyuk"
     },
     {
       "name": "card_title",
@@ -42,7 +42,7 @@
     },
     {
       "name": "introduction",
-      "value": "Pin a note"
+      "value": "Not sabitle"
     },
     {
       "name": "app_title",
@@ -50,147 +50,147 @@
     },
     {
       "name": "note_input_placeholder",
-      "value": "Keep in mind…"
+      "value": "Aklinda kalsin…"
     },
     {
       "name": "note_input_label",
-      "value": "New note"
+      "value": "Yeni not"
     },
     {
       "name": "search_label",
-      "value": "Search"
+      "value": "Ara"
     },
     {
       "name": "action_add",
-      "value": "Add"
+      "value": "Ekle"
     },
     {
       "name": "action_show",
-      "value": "Pin"
+      "value": "Sabitle"
     },
     {
       "name": "action_delete",
-      "value": "Delete"
+      "value": "Sil"
     },
     {
       "name": "action_edit",
-      "value": "Edit"
+      "value": "Duzenle"
     },
     {
       "name": "action_save",
-      "value": "Save"
+      "value": "Kaydet"
     },
     {
       "name": "action_cancel",
-      "value": "Cancel"
+      "value": "Iptal"
     },
     {
       "name": "all_notes_title",
-      "value": "All Notes"
+      "value": "Tum Notlar"
     },
     {
       "name": "all_notes_hint",
-      "value": "Pin this note to your widget!"
+      "value": "Bu notu widget'a sabitle!"
     },
     {
       "name": "empty_notes_title",
-      "value": "No notes yet"
+      "value": "Henuz not yok"
     },
     {
       "name": "empty_notes_hint",
-      "value": "Add your first note above."
+      "value": "Ilk notunu yukaridan ekle."
     },
     {
       "name": "toast_swipe_to_see",
-      "value": "Swipe to see your notes!"
+      "value": "Notlarini gormek icin kaydir!"
     },
     {
       "name": "toast_pinned",
-      "value": "Pinned to widget"
+      "value": "Widget'a sabitlendi"
     },
     {
       "name": "widget_no_note",
-      "value": "No note pinned yet"
+      "value": "Sabit not yok"
     },
     {
       "name": "confirm_delete_title",
-      "value": "Delete note?"
+      "value": "Not silinsin mi?"
     },
     {
       "name": "confirm_delete_msg",
-      "value": "This cannot be undone."
+      "value": "Bu islem geri alinamaz."
     },
     {
       "name": "search_placeholder",
-      "value": "Search notes…"
+      "value": "Notlarda ara…"
     },
     {
       "name": "a11y_add",
-      "value": "Add note"
+      "value": "Not ekle"
     },
     {
       "name": "a11y_pin",
-      "value": "Pin note to widget"
+      "value": "Notu widget'a sabitle"
     },
     {
       "name": "a11y_open_detail",
-      "value": "Open note details"
+      "value": "Not detayini ac"
     },
     {
       "name": "a11y_swipe_delete",
-      "value": "Swipe left to delete"
+      "value": "Silmek icin sola kaydir"
     },
     {
       "name": "toast_duplicate",
-      "value": "Note already exists"
+      "value": "Bu not zaten var"
     },
     {
       "name": "a11y_clear_search",
-      "value": "Clear search"
+      "value": "Aramayi temizle"
     },
     {
       "name": "all_notes_title_count",
-      "value": "All Notes (%d)"
+      "value": "Tum Notlar (%d)"
     },
     {
       "name": "action_remind",
-      "value": "Remind"
+      "value": "Hatirlat"
     },
     {
       "name": "remind_in_1h",
-      "value": "In 1 hour"
+      "value": "1 saat sonra"
     },
     {
       "name": "remind_in_1d",
-      "value": "In 1 day"
+      "value": "1 gun sonra"
     },
     {
       "name": "remind_in_1w",
-      "value": "In 1 week"
+      "value": "1 hafta sonra"
     },
     {
       "name": "toast_reminder_set",
-      "value": "Reminder set"
+      "value": "Hatirlatici kuruldu"
     },
     {
       "name": "toast_reminder_failed",
-      "value": "Could not set reminder"
+      "value": "Hatirlatici kurulamadi"
     },
     {
       "name": "time_just_now",
-      "value": "just now"
+      "value": "simdi"
     },
     {
       "name": "time_minutes_ago",
-      "value": "%d min ago"
+      "value": "%d dk once"
     },
     {
       "name": "time_hours_ago",
-      "value": "%d hr ago"
+      "value": "%d sa once"
     },
     {
       "name": "time_days_ago",
-      "value": "%d day ago"
+      "value": "%d gun once"
     },
     {
       "name": "reminder_app_title",

@@ -7,6 +7,14 @@
     "deviceTypes": [
       "wearable"
     ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.VIBRATE"
+      },
+      {
+        "name": "ohos.permission.PUBLISH_AGENT_REMINDER"
+      }
+    ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
@@ -43,7 +51,7 @@
             "name": "ohos.extension.backup",
             "resource": "$profile:backup_config"
           }
-        ],
+        ]
       },
       {
         "name": "EntryFormAbility",

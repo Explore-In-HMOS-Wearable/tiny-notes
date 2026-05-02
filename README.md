@@ -1,5 +1,3 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
-
 # Tiny Notes
 Tiny Notes is a quick and simple way to save short reminders, keep-in-mind messages, and daily thoughts. Add a note in seconds, view them instantly, and pin your important ones to the widget. Stay organized with minimal effort.
 
@@ -21,9 +19,9 @@ Tiny Notes is a quick and simple way to save short reminders, keep-in-mind messa
 
 - Languages: ArkTS (Ark TypeScript)
 
-- Frameworks: HarmonyOS SDK 5.1.0 (API Version 18)
+- Frameworks: HarmonyOS SDK 6.0.0 (API Version 20)
 
-- Tools: DevEco Studio Version 5.1.0.842
+- Tools: DevEco Studio with HarmonyOS SDK 6.0.0
 
 - Libraries & Kits:
     - @kit.FormKit	Used for creating and managing actionable widgets.
@@ -56,9 +54,8 @@ Tiny Notes is a quick and simple way to save short reminders, keep-in-mind messa
 ## Supported Devices
 
 - Huawei Watch 5
-- Devices running HarmonyOS 5.1.0 (API 18) and above
+- Devices running HarmonyOS 6.0.0 (API 20) and above
 
 # License
-
-Tiny Notes is distributed under the terms of the MIT License
+**Tiny Notes** is distributed under the terms of the MIT License
 See the [LICENSE](./LICENSE) for more information.
